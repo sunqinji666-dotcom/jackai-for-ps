@@ -1,0 +1,129 @@
+{
+  "id": "com.guanggan.jackai-for-ps",
+  "name": "JackAIforPS",
+  "version": "3.5.0",
+  "main": "dist/index.html",
+  "manifestVersion": 5,
+  "host": {
+    "app": "PS",
+    "minVersion": "23.0.0"
+  },
+  "featureFlags": {
+    "enableAlerts": true
+  },
+  "requiredPermissions": {
+    "network": {
+      "domains": "all"
+    },
+    "allowCodeGenerationFromStrings": true,
+    "launchProcess": {
+      "schemes": [
+        "http",
+        "https"
+      ],
+      "extensions": [
+        ".jpg",
+        ".png",
+        ".gif",
+        ".webp"
+      ]
+    },
+    "webview": {
+      "allow": "yes",
+      "allowLocalRendering": "yes",
+      "domains": "all",
+      "enableMessageBridge": "localAndRemote"
+    },
+    "localFileSystem": "fullAccess",
+    "clipboard": "readAndWrite"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "jack-ai-panel___",
+      "label": {
+        "default": "JackAI · 光感助手"
+      },
+      "minimumSize": {
+        "width": 420,
+        "height": 600
+      },
+      "maximumSize": {
+        "width": 840,
+        "height": 1200
+      },
+      "preferredDockedSize": {
+        "width": 430,
+        "height": 800
+      },
+      "preferredFloatingSize": {
+        "width": 430,
+        "height": 800
+      },
+      "icons": [
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/dark.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "darkest",
+            "dark",
+            "medium"
+          ]
+        },
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/light.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ]
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "width": 23,
+      "height": 23,
+      "path": "icons/dark.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "darkest",
+        "dark",
+        "medium"
+      ],
+      "species": [
+        "pluginList"
+      ]
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icons/light.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "lightest",
+        "light"
+      ],
+      "species": [
+        "pluginList"
+      ]
+    }
+  ]
+}
