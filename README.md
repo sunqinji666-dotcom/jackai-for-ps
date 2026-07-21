@@ -1,6 +1,6 @@
 # JackAI for Photoshop
 
-![Project visual](docs/assets/hero-system-v1.png)
+![jackai-for-ps project visual](docs/assets/jackai-for-ps-hero.png)
 
 Photoshop panel manifest and compatibility notes for a customized AI-assisted creative workflow.
 

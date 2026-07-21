@@ -2,7 +2,7 @@
 
 Photoshop panel compatibility metadata for an AI-assisted creative workflow.
 
-![Project visual](docs/assets/hero-system-v1.png)
+![jackai-for-ps project visual](assets/jackai-for-ps-hero.png)
 
 Language: Deutsch. See the [English guide](README.en.md) or [中文首页](../README.md) for setup, privacy, and contribution details.
 
